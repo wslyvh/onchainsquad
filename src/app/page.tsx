@@ -1,0 +1,33 @@
+import Image from 'next/image'
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-16">
+      <div className="flex flex-col place-items-center">
+        <Image
+          className="relative"
+          src="/os.png"
+          alt="Onchain Squad"
+          width={600}
+          height={600}
+          quality={100}
+          priority
+        />
+
+        <form action="https://login.sendpulse.com/forms/simple/u/eyJ1c2VyX2lkIjo4Mzk2NTA3LCJhZGRyZXNzX2Jvb2tfaWQiOjQ4MzgwNywibGFuZyI6ImVuIn0=" method="post">
+          <div className='flex flex-col text-neutral-content items-center text-center gap-8'>
+            <h1 className='text-2xl font-bold'>
+              Soon™️
+            </h1>
+
+            <div className='flex flex-col gap-4'>
+              <input className='input input-bordered input-sm w-72' name="email" type="email" placeholder='Enter your email..' required />
+              <input type="hidden" name="sender" value="notifications@useweb3.xyz" />
+              <button className='btn btn-primary btn-sm w-72'>Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main >
+  )
+}
