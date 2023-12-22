@@ -23,12 +23,13 @@ export default function Home() {
 
             <div className='flex flex-col gap-4'>
               <input className='input input-bordered input-sm w-72' name="email" type="email" placeholder='Enter your email..' required />
-              <input type="hidden" name="sender" value="notifications@useweb3.xyz" />
+              <input type="hidden" name="sender" value="wesley@useweb3.xyz" />
+              <input type="hidden" name="name" value="" />
               <button className='btn btn-primary btn-sm w-72'>Subscribe</button>
             </div>
           </div>
         </form>
       </div>
-    </main >
+    </main>
   )
 }
