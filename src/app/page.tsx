@@ -12,6 +12,7 @@ export default function Home() {
           height={600}
           quality={100}
           priority
+          unoptimized
         />
 
         <form action="https://login.sendpulse.com/forms/simple/u/eyJ1c2VyX2lkIjo4Mzk2NTA3LCJhZGRyZXNzX2Jvb2tfaWQiOjQ4MzgwNywibGFuZyI6ImVuIn0=" method="post">
