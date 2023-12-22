@@ -15,7 +15,7 @@ export default function Home() {
           unoptimized
         />
 
-        <form action="https://login.sendpulse.com/forms/simple/u/eyJ1c2VyX2lkIjo4Mzk2NTA3LCJhZGRyZXNzX2Jvb2tfaWQiOjQ4MzgwNywibGFuZyI6ImVuIn0=" method="post">
+        <form action="https://login.sendpulse.com/forms/simple/u/eyJ1c2VyX2lkIjo4Mzk2NTA3LCJhZGRyZXNzX2Jvb2tfaWQiOjQ4MzgwNywibGFuZyI6ImVuIn0=" method="post" target='_blank'>
           <div className='flex flex-col text-neutral-content items-center text-center gap-8'>
             <h1 className='text-2xl font-bold'>
               Soon™️
