@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex flex-col place-items-center">
         <Image
           className="relative"
-          src="/os.png"
+          src="/os.webp"
           alt="Onchain Squad"
           width={600}
           height={600}
