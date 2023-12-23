@@ -3,7 +3,7 @@ import { PropsWithChildren } from 'react'
 import './assets/globals.css'
 
 const title = 'Open Source | Onchain Squad'
-const description = 'Join us for 30-days of Web3 and make contribute to open-source software and crypto projects'
+const description = 'Contribute to open-source software and crypto projects'
 
 export const metadata: Metadata = {
   title: title,
